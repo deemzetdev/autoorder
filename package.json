@@ -1,0 +1,23 @@
+{
+  "name": "zetzmd-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk ZetzMD dengan fitur order, pembayaran QRIS/NOPE, dan approval developer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "order",
+    "payment"
+  ],
+  "author": "DimzSelole",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
