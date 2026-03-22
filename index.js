@@ -73,7 +73,7 @@ function generatePaymentId() {
 // Helper: log masuk chat
 function logNewChat(user) {
     console.log(
-        chalk.blue('╭─────❒ ') + chalk.orange('「 𝔑𝔢𝔴 ℭ𝔥𝔞𝔱! 」') + '\n' +
+        chalk.blue('╭─────❒ ') + chalk.magenta('「 𝔑𝔢𝔴 ℭ𝔥𝔞𝔱! 」') + '\n' +
         chalk.blue('│') + chalk.green(' Nama: ') + chalk.red(user.first_name || 'Unknown') + '\n' +
         chalk.blue('│') + chalk.green(' ID: ') + chalk.red(user.id) + '\n' +
         chalk.blue('│') + '\n' +
